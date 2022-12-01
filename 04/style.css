@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 700px;
+}
+
+#borne {
+    color: aliceblue;
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    border-radius: 100px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#inner-borne {
+    color: black;
+    background-color: aliceblue;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#happyFeets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 125px;
+}
+
+.feet {
+    width: 100px;
+    background-color: black;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
